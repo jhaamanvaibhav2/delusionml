@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -dynamiclib -Wl,-headerpad_max_install_names -o libdelusionml.dylib -install_name @rpath/libdelusionml.dylib CMakeFiles/delusionml.dir/core/tensor.cpp.o  -framework Metal -framework Foundation
